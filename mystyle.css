@@ -1,0 +1,86 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.game-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    height: 800px;
+    background: #738b99;
+    position: relative;
+}
+
+.bug {
+    position: absolute;
+    background-image: url('images/bug.png');
+    background-size: contain;
+    width: 60px;
+    height: 60px;
+}
+
+.poinds-container {
+    font-size: 1em;
+}
+
+.head-line{
+    font-size: 1em;
+}
+
+.end-game-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    height: 100vh;
+    background: #738b99;
+    position: absolute;
+    visibility: hidden;
+    z-index: 1000;
+    font-size: 3em;
+    color:#fff;
+}
+
+@media only screen and (min-width: 800px) {
+    .poinds-container {
+        font-size: 1em;
+    }
+    .head-line{
+        font-size: 1em;
+    }
+    .end-game-container{
+        font-size: 1em;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .poinds-container {
+        font-size: 2em;
+    }
+    .head-line{
+        font-size: 2em;
+    }
+    .end-game-container{
+        font-size: 2em;
+    }
+}
+
+@media only screen and (min-width: 425px) {
+    .poinds-container {
+        font-size: 3em;
+    }
+    .head-line{
+        font-size: 3em;
+    }
+    .end-game-container{
+        font-size: 3em;
+    }
+}
+
+
+
